@@ -7,7 +7,7 @@
     "rvhtwine": "./bin/twine.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/RobvH/rvhtwine#readme",
   "devDependencies": {
     "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.12.0",
